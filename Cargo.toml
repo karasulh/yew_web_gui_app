@@ -1,0 +1,13 @@
+[package]
+name = "yew-app"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "yew-app"
+path = "src/main.rs"
+
+[dependencies]
+yew = { git = "https://github.com/yewstack/yew/", features = ["csr"] }
+web-sys = "0.3.72"
+
